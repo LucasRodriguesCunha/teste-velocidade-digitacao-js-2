@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ca820f;
+}
+
+.container {
+    background: #fff;
+    width: 900px;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.container .conteudo-caixa {
+    padding: 13px 20px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.conteudo-caixa .digitacao {
+    max-height: 255px;
+    overflow-y: auto;
+}
+
+.digitacao::-webkit-scrollbar {
+    width: 0;
+}
+
+.digitacao p {
+    font-size: 21px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+
+.conteudo-caixa .conteudo {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    padding: 12px 0;
+    border-top: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.conteudo button {
+    border: none;
+    outline: none;
+    width: 105px;
+    padding: 8px 0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 130px;
+    background: #ca820f;
+    transition: transform 0.3s ease;
+}
+
+.conteudo button:active {
+    transform: scale(0.97);
+}
+
+.conteudo .detalhes {
+    display: flex;
+    width: calc(100% - 180px);
+    justify-content: space-between;
+}
+
+.detalhes li {
+    height: 22px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.detalhes li:not(:first-child) {
+    padding-left: 22px;
+    border-left: 1px solid #ccc;
+}
+
+.detalhes li p {
+    font-size: 19px;
+}
+
+.detalhes li span {
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.detalhes li:not(:first-child) span{
+    font-weight: 500;
+}
+
+.detalhes li b {
+    font-weight: 500;
+}
