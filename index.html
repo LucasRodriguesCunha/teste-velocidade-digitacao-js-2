@@ -1,59 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- JavaScript -->
     <script src="script.js" defer></script>
 
-    <script src="paragrafo.js" defer></script>
+    <script src="paragrafo.js"></script>
 
     <!-- Estilo -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
 
     <!-- Fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Jogo de teste de velocidade de digitação</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <div class="conteudo-caixa">
-            <div class="digitacao">
-                <p>Minha terra tem palmeiras onde canta o sabiá; as aves, que aqui gorjeiam, não gorjeiam como lá. Nosso céu tem mais estrelas, -nossas várzeas têm mais flores, nossos bosques têm mais vida, nossa vida mais amores. Em cismar, sozinho à noite, mais prazer encontro eu lá; minha terra tem palmeiras, onde canta o sabiá.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum blanditiis nisi at doloribus accusantium, quidem non doloremque laudantium placeat incidunt quibusdam sunt repellat quis cumque! Ab, impedit optio! Architecto, cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquam natus unde laudantium necessitatibus porro officiis dignissimos adipisci, consequuntur neque hic, nam molestiae ab explicabo sequi accusantium rem ullam doloribus?
-                </p>
-            </div>
-            <div class="conteudo">
-                <ul class="detalhes">
-                    <li class="tempo">
-                        <p>Tempo restante:</p>
-                        <span><b>60</b>s</span>
-                    </li>
-                    <li class="erros">
-                        <p>Erros:</p>
-                        <span>0</span>
-                    </li>
-                    <li class="wpm">
-                        <p>WPM:</p>
-                        <span>0</span>
-                    </li>
-                    <li class="cpm">
-                        <p>CPM:</p>
-                        <span>0</span>
-                    </li>
-                    
-                </ul>
-                <button>Tente novamente</button>
-            </div>
+      <input type="text" class="input-campo" />
+      <div class="conteudo-caixa">
+        <div class="digitacao">
+          <p></p>
         </div>
+        <div class="conteudo">
+          <ul class="detalhes">
+            <li class="tempo">
+              <p>Tempo restante:</p>
+              <span><b>60</b>s</span>
+            </li>
+            <li class="erros">
+              <p>Erros:</p>
+              <span>0</span>
+            </li>
+            <li class="wpm">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+            <li class="cpm">
+              <p>CPM:</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <button>Tente novamente</button>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
