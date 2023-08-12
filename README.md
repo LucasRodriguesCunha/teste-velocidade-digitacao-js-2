@@ -1,2 +1,2 @@
-# teste-velocidade-digitacao-js-v2.0
+# teste-velocidade-digitacao-js-2
  
